@@ -28,7 +28,7 @@ function App() {
   }; 
 
   return (
-    <GoogleOAuthProvider clientId="918292404870-p4snabp9r1iir3kpgcombb9mrd72v6al.apps.googleusercontent.com">
+    <GoogleOAuthProvider clientId="">
       <Provider store={store}>
         <Navbar />
         <div className="container">
