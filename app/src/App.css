@@ -9,32 +9,33 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
   min-height: 100vh;
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 100px;
   max-width: 700px;
-  width: 100%;
+  width: 90%;
   margin-top: 20px;
-  
-  
-  
-}
+  }
 
 
 nav {
-  
+  width: 74%;
+  display: flex;
+  flex-direction: column;
   background-color:#ff0061;
   color: #ffffff;
   padding: 20px;
   border-radius: 8px;
 margin-left: 100px;
-margin-right: 100px;
+margin-right: 100px; 
 text-align: center;
  margin-bottom: 20px;
   transition: background-color 0.7s;
@@ -49,6 +50,7 @@ nav h1 {
   font-size: 24px;
   
 }
+
 
 form {
   display: flex;
@@ -164,12 +166,16 @@ font-size: 20px;
   .container {
     padding: 30px;
     margin-top: 10px;
+    
   }
+
+  
 
   nav {
     margin-left: 20px;
     margin-right: 20px;
-    padding: 15px;
+    padding: 25px;
+   
   }
 
   nav h1 {
